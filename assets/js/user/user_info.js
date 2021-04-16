@@ -19,7 +19,8 @@ $(function() {
                     return layer.msg('获取用户信息失败！');
                 }
                 // layer.msg('获取用户信息成功！')
-                form.val('formUserInfo', res.data);
+                //快速为表单赋值
+                form.val('formUserInfo', res.data)
             }
         })
     }
